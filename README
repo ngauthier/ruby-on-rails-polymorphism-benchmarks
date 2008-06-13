@@ -1,0 +1,18 @@
+Ruby on Rails Polymorphic Relation Benchmarking
+Nick Gauthier (nick@smartlogicsolutions.com)
+
+I created this app to test the polymorphic relationships in rails.
+
+Specifically, I wanted to know if using strings for comparison was slower
+than using a manual linking table via integers.
+
+I created four linking tables, two with strings and two with integers.
+One of each type has an index on the type, the other does not.
+
+Please expand upon my benchmarks to find the fastest way possible to create and
+(more importantly) find these links.
+
+Edit the file test/test_helper.rb to set parameters. Run with "rake"
+
+
+-Nick
